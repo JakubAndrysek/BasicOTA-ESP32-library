@@ -3,7 +3,7 @@
 This project is inspirated by [Lastminuteengineers.com](https://lastminuteengineers.com/esp32-ota-updates-arduino-ide/)
 ## Usage
 
-### [Example code](https://github.com/JakubAndrysek/BasicOTA-ESP32-library/tree/master/example/BasicUsage)
+### [Example project](https://github.com/JakubAndrysek/BasicOTA-ESP32-library/tree/master/example/BasicUsage)
 
 ### First start
 1. Create new [PlatformIO](https://platformio.org/) projest - Eespressif ESP32 Dev Module
@@ -15,7 +15,7 @@ This project is inspirated by [Lastminuteengineers.com](https://lastminuteengine
 ### Next Usage
 1. If you se in your terminal IP adress of your ESP follow to the next point. If not, try the First start again
 1. Open again `platformio.ini` and add `upload_port = YOUR ESP32 IP` after `upload_flags = -p 3232` Example: [`upload_port = 192.168.0.166`]()
-1. That`s all 😃
+1. That`s all 😃. Now will be your programe uploaded trought the WiFI
 
 Succes upload message - Upload status
 
