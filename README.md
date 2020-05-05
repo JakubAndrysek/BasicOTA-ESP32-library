@@ -14,7 +14,7 @@ This project is inspirated by [Lastminuteengineers.com](https://lastminuteengine
 
 ### Next Usage
 1. If you se in your terminal IP adress of your ESP follow to the next point. If not, try the First start again
-1. Open `platformio.ini` and add `upload_port = YOUR ESP32 IP` (IP adress is displayed in the terminal) after `upload_flags = -p 3232` Example: [`upload_port = 192.168.0.166`]()
+1. Open `platformio.ini` and add `upload_port = YOUR ESP32 IP` (IP adress is displayed in the terminal) after `upload_flags = -p 3232` Example: `upload_port = 192.168.0.166`
 1. That`s all 😃. Now will be your programe uploaded trought the WiFI
 
 Succes upload message - Upload status
