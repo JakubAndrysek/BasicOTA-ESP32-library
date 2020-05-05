@@ -9,7 +9,7 @@ This project is inspirated by [Lastminuteengineers.com](https://lastminuteengine
 1. Create new [PlatformIO](https://platformio.org/) projest - Eespressif ESP32 Dev Module
 1. Copy [example](https://github.com/JakubAndrysek/BasicOTA-ESP32-library/blob/master/example/BasicUsage/main.cpp) code into `main.cpp`
 1. Change WiFi SSID and PASSWORD
-1. Open `platformio.ini` and after `framework = arduino` put this line `upload_flags = -p 3232`. It fix some issue.
+1. Open `platformio.ini` and after `framework = arduino` put this line `upload_flags = -p 3232`. It fix [upload](https://github.com/platformio/platform-espressif32/issues/197) issue.
 1. Connect ESP32 to the PC and flash software. For the first time ESP must be connected by cable!
 
 ### Next Usage
