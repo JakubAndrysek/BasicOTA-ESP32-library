@@ -1,6 +1,9 @@
 # Basic OTA library for ESP32 and VSCode - PlatformIO
 ### By [Kuba Andrýsek](https://kubaandrysek.cz/)
 This project is inspirated by [Lastminuteengineers.com](https://lastminuteengineers.com/esp32-ota-updates-arduino-ide/)
+
+# Integration is only 2 minutes - very easy to use
+
 ## Usage
 
 ### [Example project](https://github.com/JakubAndrysek/BasicOTA-ESP32-library/tree/master/example/BasicUsage)
